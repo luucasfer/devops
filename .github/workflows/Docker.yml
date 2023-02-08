@@ -28,6 +28,6 @@ jobs:
       uses: docker/build-push-action@v3.0.0
       with:
         context: .
-        file: ./Dockerfile
+        file: ./alura-githubActions-Golang/Dockerfile
         push: true
         tags: luucasfer94/testeGo:1.0.0
