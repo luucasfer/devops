@@ -47,10 +47,7 @@ jobs:
    
   build: 
     needs: test
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: ['ubuntu-latest', 'ubuntu-18.04']
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: ./alura-githubActions-Golang
